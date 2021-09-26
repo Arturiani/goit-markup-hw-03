@@ -12,7 +12,7 @@ h6 {
 
 ul {
     margin: 0;
-    padding-left: o;
+    padding-left: 0;
 }
 
 img {
@@ -79,14 +79,14 @@ body {
 /*------------------ header-------------------- */
 
 .header {
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .nav-list {
@@ -191,6 +191,10 @@ body {
 .hero-btn {
     display: block;
     margin: auto;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -201,11 +205,13 @@ body {
     cursor: pointer;
 }
 
-.benefites {
-    display: flex;
-    padding-left: 0;
+.benefites-section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.benefites {
+    display: flex;
 }
 
 .benefites-li {
@@ -232,10 +238,12 @@ body {
     color: var(--font-two-color);
 }
 
+.sphere-section {
+    padding-bottom: 94px;
+}
+
 .spheres {
     display: flex;
-    padding-left: 0;
-    padding-bottom: 94px;
 }
 
 .sphere:not(:last-child) {
@@ -250,10 +258,6 @@ body {
 
 .collective-cards {
     display: flex;
-}
-
-.collective-cards.list {
-    padding-left: 0;
 }
 
 .collective-card {
@@ -299,7 +303,15 @@ body {
     margin-right: 8px;
 }
 
+.filter-group.list {
+    margin-bottom: 50px;
+}
+
 .filter-button {
+    padding-top: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 6px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -323,7 +335,6 @@ body {
 /* ----------------portfolio cards group---------------- */
 
 .cards.list {
-    padding-left: 0;
     padding-right: 0;
     padding-bottom: 94px;
 }
